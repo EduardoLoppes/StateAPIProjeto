@@ -2,6 +2,7 @@
 Configuração do Projeto
 
 1. Clonar o Repositório
+<br/>
 Clone o repositório para sua máquina local usando o Git:
 <br/>
 bash
@@ -18,12 +19,14 @@ json
 }
 <br/>
 4. Restaurar Pacotes NuGet
+<br/>
 No terminal ou prompt de comando, navegue até o diretório do projeto e execute o seguinte comando para restaurar os pacotes NuGet:
 <br/>
 bash
 dotnet restore
 <br/>
 6. Criar o Banco de Dados e Aplicar Migrações
+<br/>
 No Visual Studio, abra o Package Manager Console e execute os comandos para criar as migrações e atualizar o banco de dados:
 <br/>
 Add-Migration InitialCreate
